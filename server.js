@@ -9,6 +9,9 @@ const path = require('path');
 const stockRouter = require('./routes/stockRouter');
 const helmet = require('helmet');
 
+const app = express();
+
+app.use(bodyParser.json());
 app.use(helmet());
 
 app.use(
@@ -20,9 +23,6 @@ app.use(
 	})
 );
 
-const app = express();
-
-app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // setting up the static folder
