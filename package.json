@@ -20,7 +20,7 @@
 		"mocha": "^7.1.0",
 		"mongodb": "^3.5.5",
 		"mongoose": "^5.9.4",
-		"node-fetch": "^2.6.0",
+		"node-fetch": "^2.6.7",
 		"zombie": "^6.1.4"
 	},
 	"keywords": [
